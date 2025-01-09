@@ -15,6 +15,8 @@
             minlength="5" 
             maxlength="50"
             placeholder="請輸入真實姓名"/>
+        <hr>
+        <!-- 設定性別的slect標籤 -->
         <label for="gender">性別</label>
         <select name="gender" id="gender" required>
             <option >請選擇你的性別</option>
@@ -22,22 +24,26 @@
             <option value="female">女性</option>
             <option value="other">其他</option>
         </select>
+        <!-- 設定性別的radio標籤 -->
         <!-- <input type="radio" id="male" name="gender" value="male" required>
         <label for="male">男性</label>
         <input type="radio" id="female" name="gender" value="female" required>
         <label for="female">女性</label> -->
+        <hr>
         <label for="信箱">信箱:</label>
         <input id="信箱" type="email" name="email" required/>
+        <hr>        
         <label for="密碼">密碼</label>
         <input type="password" name="password" id="password" minlength="12" maxlength="20">
 
         <input type="checkbox" onclick="showPassword" id="show">showPassword
-
+        <hr>
         <label for="age">年齡</label>
         <input type="number" name="age" id="age" value="18" min="0" max="200" step="">
+        <hr>
         <input id="電子報" type="checkbox" checked name="電子報" value="訂閱">
         <label for="電子報">訂閱電子報</label>
-
+        <hr>
         <label for="area">地區:</label>
         <input list="area-list" type="text" name="area" id="area">
         <datalist id="area-list">
@@ -45,7 +51,7 @@
             <option value="台中市">台中市</option>
             <option value="南投市">南投市</option>
         </datalist>
-
+        <hr>
         <label for="suggestion">給網站的建議</label>
         <textarea name="suggestion"
          id="suggestion" c
@@ -54,6 +60,12 @@
          placeholder="填寫給網站的建議"></textarea>
 
         <button type="submit">提交表單</button>
+        <hr>
+        <p>
+            南投市<br>
+            仁政街8888號
+        </p>
+
         <input type="file">
         
     </form>

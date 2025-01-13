@@ -21,10 +21,14 @@
 /* input[type="text"]:focus{
   color: lightgreen;
 } */
- p::before{
+ /* p::before{
   content:">>" ;
   color: blueviolet;
  }
  *::selection{
   background-color: lawngreen;
- }
+ } */
+  /* 繼承測試 */
+body{
+  color: red;
+}

@@ -1,19 +1,13 @@
-h1{
-  text-align:center ;
+body {
+  /* 多設幾個的用意是如果瀏覽器沒找到第
+  一個字體，會往下去找其他字體替補 */
+   /* font-family: sans;  
+   font-family: 'Courier New', Courier, monospace ; */
+   font-family: "Noto Sans TC", serif;
+   font-optical-sizing: auto;
+   font-weight: <100>;
+   font-style: normal;
 }
-th,td{
-  text-align: center;
-}
-table,th,tr,td {
-  border: 1px solid black;
-}
-
-a {
-  text-decoration:line-through ;
-}
-
 p {
-  letter-spacing: 1px;
-  line-height: 50px;
-
+  text-indent: 2rem;
 }

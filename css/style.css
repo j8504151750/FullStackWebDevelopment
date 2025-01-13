@@ -1,27 +1,15 @@
-/* selector */
-/* *{
-    color: red;
-  } */
-/* element selector */
-/* a{
-  color: aqua;
-} */
-
-/* id selector */
-/* #first-paragraph{
-  color: rgb(rgb(163, 120, 120), rgb(110, 193, 110), rgb(55, 55, 136));
-} */
-
-/* class selector */
-/* .blue-text{
+/* grouping-selector */
+/* h1, h2, h3, h4, h5, h6{
   color: blue;
-}
-
-.large-text{
-  font-size: 32px;
 } */
-
-/* element selector and class selector */
-a.large-text{
-  font-size: 32px;
+ /* descendant-selector */
+ /* div.link1 a{
+  color: red;
+ }
+ div.link2 a{
+  color: aqua;
+ } */
+input[type="text"]{
+  color: rgb(0, 4, 255);
 }
+

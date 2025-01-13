@@ -1,8 +1,27 @@
 /* selector */
-h1{
+/* *{
     color: red;
-  }
+  } */
+/* element selector */
+/* a{
+  color: aqua;
+} */
 
-  h2{
-    color: green;
-  }
+/* id selector */
+/* #first-paragraph{
+  color: rgb(rgb(163, 120, 120), rgb(110, 193, 110), rgb(55, 55, 136));
+} */
+
+/* class selector */
+/* .blue-text{
+  color: blue;
+}
+
+.large-text{
+  font-size: 32px;
+} */
+
+/* element selector and class selector */
+a.large-text{
+  font-size: 32px;
+}

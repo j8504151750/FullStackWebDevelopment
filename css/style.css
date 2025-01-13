@@ -9,7 +9,22 @@
  div.link2 a{
   color: aqua;
  } */
-input[type="text"]{
+/* input[type="text"]{
   color: rgb(0, 4, 255);
-}
-
+} */
+/* input[type="text"]:hover{
+  color: lightgreen;
+} */
+/* input[type="text"]:active{
+  color: lightgreen;
+} */
+/* input[type="text"]:focus{
+  color: lightgreen;
+} */
+ p::before{
+  content:">>" ;
+  color: blueviolet;
+ }
+ *::selection{
+  background-color: lawngreen;
+ }

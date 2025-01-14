@@ -7,7 +7,13 @@ body {
    font-optical-sizing: auto;
    font-weight: <100>;
    font-style: normal;
+   background-image: url(../img/tommy-tsao-TZldfnLPZ3Q-unsplash.jpg);
+   background-size: cover;
+   background-position: center;
+   
 }
 p {
   text-indent: 2rem;
+  
+  /* background-image: url(../img/故宮圖片2.jpeg); */
 }

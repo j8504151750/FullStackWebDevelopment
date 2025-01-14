@@ -1,19 +1,11 @@
-body {
-  /* 多設幾個的用意是如果瀏覽器沒找到第
-  一個字體，會往下去找其他字體替補 */
-   /* font-family: sans;  
-   font-family: 'Courier New', Courier, monospace ; */
-   font-family: "Noto Sans TC", serif;
-   font-optical-sizing: auto;
-   font-weight: <100>;
-   font-style: normal;
-   background-image: url(../img/tommy-tsao-TZldfnLPZ3Q-unsplash.jpg);
-   background-size: cover;
-   background-position: center;
-   
+h1{
+  border:  5px solid black;
+  border-radius: 10px;
 }
-p {
-  text-indent: 2rem;
-  
-  /* background-image: url(../img/故宮圖片2.jpeg); */
+
+.box{
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+  border-radius: 50%;
 }
